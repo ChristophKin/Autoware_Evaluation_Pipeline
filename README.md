@@ -7,6 +7,12 @@ Python evaluation pipeline for evaluation of localisation and drive/gait of vehi
 - creation of correlation matrices, evaluation tables and other plots for visualization
 - option for zero-phase-filtering all input data
 
+The following topics need to be in the rosbag:
+- /diagnostics (for Mahalanobis distance evaluation, the value needs to be added in the autoware code to the diagnostics topic)
+- IMU: /sensing/imu/imu_data
+- Twist: /sensing/vehicle_velocity_converter/twist_with_covariance
+- TF: /tf (for estimation error, ground truth and estimated pose tf need to be recorded)
+
 ![IMU and Twist](https://github.com/user-attachments/assets/383c0410-723e-4a9f-983e-0701257341ad)
 
 <img src="https://github.com/user-attachments/assets/00600ba4-0268-46e4-8fc7-135e5319ff3b" width="300">
