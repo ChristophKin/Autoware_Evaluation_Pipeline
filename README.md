@@ -1,5 +1,5 @@
 # Autoware_Evaluation_Pipeline
-Python evaluation pipeline for evaluation of localisation and drive/gait of vehicles/quadrupeds in Autoware.
+Python evaluation pipeline to analyze the localisation and drive/gait of vehicles/quadrupeds in Autoware.
 
 - statistic analysis of the gait/drive with IMU and Twist data
 - localization analysis with NDT and EKF performance parameter
