@@ -1,1 +1,0 @@
-two sample rosbags to test the pipeline
